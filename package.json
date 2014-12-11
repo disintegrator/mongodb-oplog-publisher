@@ -1,6 +1,6 @@
 {
   "name": "mongodb-oplog-publisher",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Daemon that watches mongodb oplog and publishes events to RabbitMQ",
   "main": "index.js",
   "bin": {
