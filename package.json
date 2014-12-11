@@ -1,0 +1,33 @@
+{
+  "name": "mongodb-oplog-publisher",
+  "version": "0.0.1",
+  "description": "Daemon that watches mongodb oplog and publishes events to RabbitMQ",
+  "main": "index.js",
+  "bin": {
+      "mop": "./index.js"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "coffee-script": "^1.8.0"
+    "twelve": "^0.0.19",
+    "mongo-oplog": "^0.1.5",
+    "antz": "^0.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:disintegrator/mongodb-oplog-publisher.git"
+  },
+  "keywords": [
+    "mongodb",
+    "rabbitmq"
+  ],
+  "author": "George Haidar <ghaidar0@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/disintegrator/mongodb-oplog-publisher/issues"
+  },
+  "homepage": "https://github.com/disintegrator/mongodb-oplog-publisher"
+}
